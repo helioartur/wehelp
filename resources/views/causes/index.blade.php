@@ -11,14 +11,14 @@
 	              Causes
 	              <div class="pull-right">
 	                  <a href="{{ url('causes/create') }}" class="btn btn-primary btn-sm" role="button" data-toggle="tooltip" title="{{ trans('adminlte_lang::message.new_cause') }}">
-	                       <i class="fa fa-plus"></i>New Cause
+	                       <i class="fa fa-plus"></i> New Cause
 	                  </a>
 	                  
 	              </div><!-- /. tools -->
 	            </div><!-- /.box-header -->
 	  
 	            <div class="panel-body">
-	                <table id="example1" class="table table-bordered">
+	                <!--<table id="example1" class="table table-bordered">
 		                <thead>
 		                  <tr>
 		                    <th>Title</th>
@@ -47,7 +47,44 @@
   								</tr>
 							@endforeach
 		                <tbody>     
-                    </table>
+                    </table>-->
+	            </div>
+	        </div>
+	        <div class="panel panel-default">
+	            <div class="panel-body">
+	                <div class="row">
+		            	<div class="col-md-4">
+		            		<img class="img-responsive thumbnail pad"  src="{{asset('/img/helping-hands.jpg')}}" alt="First slide">
+		            	</div>
+		            	<div class="col-md-5">		            	    
+		            		<h2 style="margin-top: 0;"><strong>Cause Title</strong></h2>
+		            		<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse suscipit cupiditate quo consectetur impedit sit repellendus dolores nemo. Fuga nostrum facere...</small></p>
+		            	</div>
+		            	<div class="col-md-3 text-center v-divider">
+		            	    <p><b>Total Help</b> </p>
+		            	    <p><mark>1000</mark></p>
+		            		<a href="#" class="btn btn-primary btn-block"><b>Help-me</b></a>
+		            	</div>
+		            </div>
+	            </div>
+	        </div>
+
+	        <div class="panel panel-default">
+	            <div class="panel-body">
+	                <div class="row">
+		            	<div class="col-md-4">
+		            		<img class="img-responsive thumbnail pad"  src="{{asset('/img/helping-hands.jpg')}}" alt="First slide">
+		            	</div>
+		            	<div class="col-md-5">		            	    
+		            		<h2 style="margin-top: 0;"><strong>Cause Title</strong></h2>
+		            		<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse suscipit cupiditate quo consectetur impedit sit repellendus dolores nemo. Fuga nostrum facere...</small></p>
+		            	</div>
+		            	<div class="col-md-3 text-center v-divider">
+		            	    <p><b>Total Help</b> </p>
+		            	    <p><mark>1000</mark></p>
+		            		<a href="#" class="btn btn-primary btn-block"><b>Help-me</b></a>
+		            	</div>
+		            </div>
 	            </div>
 	        </div>
 	    </div>
